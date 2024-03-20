@@ -36,7 +36,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build with NPM
-        run: npm build dev
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
